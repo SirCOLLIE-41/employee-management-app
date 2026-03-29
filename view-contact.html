@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Contacts</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+
+    <table>
+         <caption>Employee Contacts</caption>
+         <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr>
+            <td>John Doe</td>
+            <td>johndoe@gmail.com</td>
+            <td>0712345678</td>
+            <td>HR</td>
+            <td>
+                <button class="details" onclick="viewDetails()">Details</button>
+                <button class="edit" onclick="editContact()">Edit</button>
+                <button class="delete" onclick="deleteContact()">Delete</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Jane Smith</td>
+            <td>janesmith@gmail.com</td>
+            <td>0723456789</td>
+            <td>Finance</td>
+            <td>
+                <button class="details" onclick="viewDetails()">Details</button>
+                <button class="edit" onclick="editContact()">Edit</button>
+                <button class="delete" onclick="deleteContact()">Delete</button>
+            </td>
+        </tr>
+         <tr>
+            <td>Barry Carl</td>
+            <td>barrycarl@gmail.com</td>
+            <td>0725556780</td>
+            <td>ICT</td>
+            <td>
+                <button class="details" onclick="viewDetails()">Details</button>
+                <button class="edit" onclick="editContact()">Edit</button>
+                <button class="delete" onclick="deleteContact()">Delete</button>
+            </td>
+        </tr>
+         <tr>
+            <td>Donn Collince</td>
+            <td>donncollince@gmail.com</td>
+            <td>0741927381</td>
+            <td>Sales</td>
+            <td>
+                <button class="details" onclick="viewDetails()">Details</button>
+                <button class="edit" onclick="editContact()">Edit</button>
+                <button class="delete" onclick="deleteContact()">Delete</button>
+            </td>
+
+        </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+
+    </table>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

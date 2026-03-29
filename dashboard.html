@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="newcontact.html">Add Contact</a>
+    <a href="viewcontacts.html">View Contacts</a>
+    <a href="dashboard.html">Dashboard</a>
+</nav>
+
+<h1>Dashboard</h1>
+
+<div class="dashboard">
+
+    <!-- CARDS -->
+    <div class="card">
+        <h2 id="totalContacts">0</h2>
+        <p>Total Employees</p>
+    </div>
+
+    <div class="card">
+        <h2 id="totalDepartments">0</h2>
+        <p>Departments</p>
+    </div>
+
+</div>
+
+<h2 style="text-align:center;">Recent Contacts</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Department</th>
+        </tr>
+    </thead>
+
+    <tbody id="tableBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
